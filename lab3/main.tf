@@ -1,7 +1,7 @@
 data "terraform_remote_state" "lab1" {
   backend = "remote"
   config = {
-    # organization = "<replace-with-your-Terraform-Cloud-organization-and-uncomment>"
+    organization = "terraformLearning01"
     workspaces = {
       name = "ace-automation-lab1"
     }
